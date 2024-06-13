@@ -1,2 +1,9 @@
-# Todo_App
-ReactToDo is a full-stack todo list web app. Built with React for the frontend and Node.js with Express for the backend. Features include task creation, deletion, and completion status tracking. Uses MongoDB for data storage
+## Todo App
+This Project contains a simple TODO application 
+it has the Following Features.
+
+ - Anyone can sign up
+ - Anyone can sign in
+ - Anyone can create a todo
+ - Anyone can see their existing todo
+ - Anyone can mark a todo as done
