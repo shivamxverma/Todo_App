@@ -1,0 +1,78 @@
+.to-do-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.to-do-list h1 {
+  text-align: center;
+  color: #333;
+}
+
+.to-do-list > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.to-do-list input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.to-do-list button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+.to-do-list button:hover {
+  background-color: #45a049;
+}
+
+.to-do-list ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.to-do-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.to-do-list .delete-button,
+.to-do-list .move-button,
+.to-do-list .down-button {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.to-do-list .delete-button:hover,
+.to-do-list .move-button:hover,
+.to-do-list .down-button:hover {
+  color: #555;
+}
